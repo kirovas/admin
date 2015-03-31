@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Admin_vopros</title>
+  <meta name="description" content="">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/cb_style.css">
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+<body>
+ <div class="page">
+	<div class="container">
+		<div class="header">
+			<div class="logo">
+				<img src="images/ava-placeholder.png" alt="" />
+			</div>
+			<div class="search_container">
+			<div class="form_addon">Поиск по базе</div>
+				<input type="text" class="search" />
+				<button type="submit" class="search_btn"></button>
+			</div>
+			<div class="login">
+				<div class="log-info">
+					<p class="log_ts">Руководитель отдела Название:</p>
+					<p>Фамилия Имя Отчество</p>
+				</div>
+				<div class="log-button">
+					<a href="#" class="btn-default">Настройки</a>
+					<a href="#" class="btn-default">Выйти</a>
+				</div>
+			</div>
+		</div><!-- HEADER END -->
+		<div class="filter">
+			<div class="filter-top">
+				<span class="filter_ts">Запросы клиентов</span>
+				<div class="f_s_wrap">
+				<div class="filter_yel_styled">
+					<div id="ob_data" class="w_ar">База объектов</div>
+					<div id="ob_data_menu" class="filter_dropdown">
+					  <ul>
+						<li><a href="javascript:void(0)">Квартиры и комнаты</a></li>
+						<li><a href="javascript:void(0)">Новостройки</a></li>
+						<li><a href="javascript:void(0)">Загородная</a></li>
+						<li><a href="javascript:void(0)">Коммерческая</a></li>
+						<li><a href="javascript:void(0)">Аренда</a></li>
+						<li><a href="javascript:void(0)">Зарубежная</a></li>
+						
+					  </ul>
+					</div>
+				</div><!-- #1 dropdown end -->
+				<div class="filter_yel_styled">
+					<div id="ob_real" class="w_ar">Недвижимость</div>
+					<div id="ob_real_menu" class="filter_dropdown">
+					  <ul>
+						<li><a href="javascript:void(0)">Квартиры и комнаты</a></li>
+						<li><a href="javascript:void(0)">Новостройки</a></li>
+						<li><a href="javascript:void(0)">Загородная</a></li>
+						<li><a href="javascript:void(0)">Коммерческая</a></li>
+						<li><a href="javascript:void(0)">Аренда</a></li>
+						<li><a href="javascript:void(0)">Зарубежная</a></li>
+						
+					  </ul>
+					</div>
+				</div><!-- #2 dropdown end -->
+				<div class="filter_yel_styled">
+					<div id="ob_service" class="w_ar">Услуги</div>
+					<div id="ob_service_menu" class="filter_dropdown">
+					  <ul>
+						<li><a href="javascript:void(0)">Оценка квартиры  <span>9</span></a></li>
+						<li><a href="javascript:void(0)">Подбор квартиры</a></li>
+						<li><a href="javascript:void(0)">Осмотр объекта  <span>5</span></a></li>
+						<li><a href="javascript:void(0)">Обратный звонок</a></li>
+						<li><a href="javascript:void(0)">Консультации</a></li>
+						<li><a href="javascript:void(0)">Вопрос-ответ  <span>2</span></a></li>
+						<li><a href="javascript:void(0)">Отзывы</a></li>
+						
+					  </ul>
+					</div>
+				</div><!-- #3 dropdown end -->
+				<div class="filter_yel_styled">
+					<div id="ob_clients" class="w_ar">Потенциальные клиенты</div>
+					<div id="ob_clients_menu" class="filter_dropdown">
+					  <ul>
+						<li><a href="javascript:void(0)">Услуг</a></li>
+						<li><a href="javascript:void(0)">Новостроек</a></li>
+						<li><a href="javascript:void(0)">Загородной</a></li>
+						<li><a href="javascript:void(0)">Комерческой</a></li>
+						<li><a href="javascript:void(0)">Зарубежной</a></li>
+						<li><a href="javascript:void(0)">Аренды</a></li>
+						<li><a href="javascript:void(0)">Квартир и комнат</a></li>
+					  </ul>
+					</div>
+				</div><!-- #4 dropdown end -->
+				</div>
+			</div><!-- FILTER TOP END -->
+			<div class="faq_block">
+				<div class="faq_ts">Вопрос-ответ</div>
+				<div class="fq_form">
+					<div class="form-group">
+						<div class="form_addon">Сотрудник</div>
+						<select class="fq_styled w1">
+							<option>Фамилия Имя Отчество </option>
+							<option>Фамилия Имя Отчество </option>
+							<option>Фамилия Имя Отчество </option>
+							<option>Фамилия Имя Отчество </option>
+						</select>
+					</div>
+					<div class="form-group">
+						<div class="form_addon">Статус ответа</div>
+						<div class="check_wrap">
+							<input type="checkbox" name="checkboxG4" id="checkboxG4" class="css-checkbox" /><label for="checkboxG4" class="css-label radGroup1">Нет</label>
+							<input type="checkbox" name="checkboxG5" id="checkboxG5" class="css-checkbox" /><label for="checkboxG5" class="css-label radGroup1">Да</label>
+							<input type="checkbox" name="checkboxG6" id="checkboxG6" class="css-checkbox" /><label for="checkboxG6" class="css-label radGroup1">Нет (сбой)</label>
+						</div>
+						
+					</div>
+					<div class="dt-wrap">
+						<div class="form-group">
+							<div class="form_addon">Дата поступления</div>
+							<select class="fq_styled w2">
+								<option>4.03.2015 </option>
+								<option>4.03.2015 </option>
+								<option>4.03.2015 </option>
+								<option>4.03.2015 </option>
+							</select>
+						</div>
+						<div class="form-group">
+							<div class="t-wrap">
+								<div class="t-addon">Период времени</div>
+								<div class="t-col"><label for="from-t">с</label><input name="from-t" type="text" class="time_input"  value="02:00" /></div>
+								<div class="t-col"><label for="from-t">с</label><input name="from-t" type="text" class="time_input"  value="02:00" /></div>
+							</div>
+						</div>
+					</div>
+					<div class="dt-wrap">
+						<div class="form-group">
+							<div class="form_addon">Дата поступления</div>
+							<select class="fq_styled w2">
+								<option>4.03.2015 </option>
+								<option>4.03.2015 </option>
+								<option>4.03.2015 </option>
+								<option>4.03.2015 </option>
+							</select>
+						</div>
+						<div class="form-group">
+							<div class="t-wrap">
+								<div class="t-addon">Период времени</div>
+								<div class="t-col"><label for="from-t">с</label><input name="from-t" type="text" class="time_input"  value="02:00" /></div>
+								<div class="t-col"><label for="from-t">с</label><input name="from-t" type="text" class="time_input"  value="02:00" /></div>
+							</div>
+						</div>
+					</div>
+					<div class="ff-buttons">
+						<button class="btn-clear"><i class="icon-reset"></i>Очистить фильтр</button>
+						<button class="btn-fil"><i class="icon-zoom"></i>Найти</button>
+					</div>
+				<div class="clear"></div>
+				</div><!-- FAQ FORM END -->
+				<div class="clear"></div>
+			</div><!-- FAQ BLOCK END -->
+		</div><!-- FILTER END -->
+		<div class="result_view">
+			<table class="table table-result">
+				<thead>
+					<tr>
+					<th>Срочно</th>
+					<th>Дата <br /> поступления</th>
+					<th>Когда надо ответить?</th>
+					<th>ФИО  сотрудника</th>
+					<th>Дан ли<br /> ответ?</th>
+					<th>Удобное время</th>
+					<th>ФИО</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><span>Да</span></td>
+						<td><span>12:35  14.04.2015</span></td>
+						<td><span>13:00  15.04.2015</span><img src="images/calendar.png" style="width:20px;"/></td>
+						<td><span>Иванова Ирина Ивановна</span></td>
+						<td><span>Да</span></td>
+						<td><span>15:00  04.03.2015</span></td>
+						<td><span>Чертованов Олег Дмитриевич</span></td>
+					</tr>
+					<tr>
+						<td><span>Да</span></td>
+						<td><span>12:35  14.04.2015</span></td>
+						<td><span>13:00  15.04.2015</span><img src="images/calendar.png" style="width:20px;"/></td>
+						<td><span>Иванова Ирина Ивановна</span></td>
+						<td><span>Да</span></td>
+						<td><span>Неважно</span></td>
+						<td><span>Марсонова Наталья Владимир...</span></td>
+					</tr>
+					<tr>
+						<td><span>Да</span></td>
+						<td><span>12:35  14.04.2015</span></td>
+						<td><span>13:00  15.04.2015</span><img src="images/calendar.png" style="width:20px;"/></td>
+						<td><span>Иванова Ирина Ивановна</span></td>
+						<td><span>Нет (сбой)</span></td>
+						<td><span>15:00-17:00</span></td>
+						<td><span>Валидбеков Рустам Рустамович</span></td>
+					</tr>
+					<tr>
+						<td>Нет</td>
+						<td>12:04  14.04.2015</td>
+						<td>19:00  14.04.2015<img src="images/calendar.png" style="width:20px;"/></td>
+						<td>Иванова Ирина Ивановна</td>
+						<td>Нет</td>
+						<td>В любое время...</td>
+						<td>Ратиева Нат.алья Борисовна</td>
+					</tr>
+					<tr>
+						<td>Нет</td>
+						<td>12:04  14.04.2015</td>
+						<td>19:00  14.04.2015<img src="images/calendar.png" style="width:20px;"/></td>
+						<td>Иванова Ирина Ивановна</td>
+						<td>Нет</td>
+						<td>В любое время...</td>
+						<td>Коган Евгений Алексеевич</td>
+					</tr>
+				</tbody>
+			</table>
+		</div><!-- result_view end -->
+		<!-- PAGINATION -->
+		<div class="pagination">
+		<a href="#" class="link"><</a><a href="#" class="link">2</a><a href="#" class="link">3</a><a href="#" class="link active">4</a><span>...</span><a href="#" class="link">5</a>
+		<a href="#" class="link">6</a><a href="#" class="link">></a>
+	</div>
+	</div><!-- CONTAINER END -->
+ 
+ 
+ </div><!-- PAGE END -->
+ 
+ 
+	<!-- run javascript at the end -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/jspatch.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+</html>
