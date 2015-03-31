@@ -165,6 +165,8 @@ label {}
 	background:#fafafa;
 	border:1px solid #ddd;
 	border-radius:3px;
+	*zoom: 1;
+    *display: inline;
  }
  /* FILTER */
  .filter {
@@ -195,6 +197,8 @@ label {}
 	box-shadow:inset opx 1px 1px rgba(255,255,255,0.3);
 	border-radius:3px;
 	cursor:pointer;
+	*zoom: 1;
+    *display: inline;
  }
  .w_ar{
 	background: url(../images/select-arrow.png)90% center no-repeat;
@@ -268,6 +272,8 @@ label {}
 	cursor:pointer;
 	background:#fff url('../images/sel-bg.png')no-repeat right center;
 	border-radius:0px 3px 3px 0px;
+	*zoom: 1;
+    *display: inline;
 }
 .fq_styled select{
 	line-height:30px;
@@ -355,9 +361,13 @@ input.time_input{
 	display:inline-block;
 	height:34px;
 	font-family: myriadproBold;
+	*zoom: 1;
+    *display: inline;
 }
 .ff-buttons button i{
 	display:inline-block;
+	*zoom: 1;
+    *display: inline;
 }
 .btn-clear{
 	background-color:#fafafa;
@@ -422,6 +432,8 @@ input.time_input{
 	display:inline-block;
 	margin-left:7px;
 	vertical-align:top;
+	*zoom: 1;
+    *display: inline;
 }
 
 /* PAGINATION */
@@ -435,6 +447,8 @@ input.time_input{
 	color: #1f252d;
 	padding: 0px 8px;
 	margin-right: 4px;
+	*zoom: 1;
+    *display: inline;
 }
 .link {
     display: inline-block;
@@ -445,6 +459,8 @@ input.time_input{
 	font-family: myriadproBold;
     text-decoration: none;
     color: #1f252d;
+	*zoom: 1;
+    *display: inline;
 }
 
 .link:hover {
