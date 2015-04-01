@@ -17,6 +17,7 @@
 }
 .fq_styled select{
 	height:34px;
+	line-height:28px;
 }
 .icon-zoom{
 	background-image:url('../images/find-icon.png');

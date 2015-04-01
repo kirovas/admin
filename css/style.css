@@ -278,6 +278,7 @@ label {}
 .fq_styled select{
 	line-height:30px;
     width: 130%;
+	height:32px;
 	font-family: myriadproRegular;
 	padding-right:40px;
 	padding-left:10px;
@@ -286,6 +287,8 @@ label {}
     background: transparent;
     background-image: none;
     -webkit-appearance: none;
+	appearance: none;
+	-moz-appearance:none;
 	cursor:pointer;
 }
 select:focus {
