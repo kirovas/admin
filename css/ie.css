@@ -4,3 +4,25 @@
 .fq_styled select{
 	padding-right:0px;
 }
+.w_ar{
+	background-image: url(../images/select-arrow.png);
+	background-position:90% center ;
+	background-repeat:no-repeat;
+}
+.search_btn{
+	background-color: #fff ;
+	background-image:url(../images/search-icon.png);
+	background-repeat:no-repeat;
+	background-position: center center;
+}
+.fq_styled select{
+	height:34px;
+}
+.icon-zoom{
+	background-image:url('../images/find-icon.png');
+	background-repeat:no-repeat;
+}
+.icon-reset{
+	background-image:url('../images/reset-icon.png');
+	
+}
