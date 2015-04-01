@@ -31,6 +31,7 @@ input[type=checkbox].css-checkbox {
 	clip:none;
 	width:17px;
 	height:17px;
+	z-index:1;
 }
 label.css-label {
 				background-image:none;
