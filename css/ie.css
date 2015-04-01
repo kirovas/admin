@@ -27,3 +27,11 @@
 	background-image:url('../images/reset-icon.png');
 	
 }
+input[type=checkbox].css-checkbox {
+	clip:none;
+	width:17px;
+	height:17px;
+}
+label.css-label {
+				background-image:none;
+				}
